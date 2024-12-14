@@ -2,9 +2,12 @@
 
 ## 环境配置
 
-- Ubuntu 24.04.1 LTS
-- Geth 1.14.12-stable
-- Solidity 0.8.28+commit.7893614a.Linux.g++
+- Ubuntu    24.04.1 LTS
+- Geth      1.8.23-stable1.14.12-stable
+- Solidity  0.8.28+commit.7893614a.Linux.g++
+- Nodejs    18.19.1
+- Npm       9.2.0
+- Truffle   v5.11.5 (core: 5.11.5)
 
 ### 问题记录
 
