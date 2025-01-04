@@ -3,7 +3,7 @@
 ## 环境配置
 
 - Ubuntu    24.04.1 LTS
-- Geth      1.8.23-stable1.14.12-stable
+- Geth      1.14.12-stable-293a300d
 - Solidity  0.8.28+commit.7893614a.Linux.g++
 - Nodejs    18.19.1
 - Npm       9.2.0
