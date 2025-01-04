@@ -82,5 +82,3 @@ added 1166 packages in 4m
 100 packages are looking for funding
   run `npm fund` for details
 ```
-
-测试
