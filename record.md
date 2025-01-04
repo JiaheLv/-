@@ -40,14 +40,7 @@
 
 ### 问题记录
 
-flag provided but not defined: --rpc
-> 版本更新导致的命令行参数变化  
-> 使用`--http`代替`--rpc`  
-> 使用`--http.api`代替`--rpcapi`  
-> 使用`--http.cordomain`代替`--rpccorsdomain`  
-> 参考：[https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options](https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options)
-
-### truffle 安装 warn
+#### truffle 安装 warn
 
 ```bash
 lvjiahe@LvJh:~$ sudo npm install -g truffle
@@ -111,3 +104,11 @@ added 1166 packages in 4m
 100 packages are looking for funding
   run `npm fund` for details
 ```
+
+#### flag provided but not defined: --rpc
+
+> 版本更新导致的命令行参数变化  
+> 使用`--http`代替`--rpc`  
+> 使用`--http.api`代替`--rpcapi`  
+> 使用`--http.cordomain`代替`--rpccorsdomain`  
+> 参考：[https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options](https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options)
