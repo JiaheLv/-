@@ -4,10 +4,39 @@
 
 - Ubuntu    24.04.1 LTS
 - Geth      1.14.12-stable-293a300d
+  
+  ```bash
+  sudo apt-get install software-properties-common
+  sudo add-apt-repository -y ppa:ethereum/ethereum
+  sudo apt-get update
+  sudo apt-get install ethereum
+  ```
+
 - Solidity  0.8.28+commit.7893614a.Linux.g++
+
+  ```bash
+  sudo add-apt-repository -y ppa:ethereum/ethereum
+  sudo apt-get update
+  sudo apt-get install solc
+  ```
+
 - Nodejs    18.19.1
+  
+  ```bash
+  sudo apt-get install -y nodejs
+  ```
+
 - Npm       9.2.0
+  
+  ```bash
+  sudo apt-get install npm
+  ```
+
 - Truffle   v5.11.5 (core: 5.11.5)
+  
+  ```bash
+  npm install -g truffle
+  ```
 
 ### 问题记录
 
