@@ -4,21 +4,43 @@
 
 - Ubuntu    24.04.1 LTS
 - Geth      1.14.12-stable-293a300d
+  
+  ```bash
+  sudo apt-get install software-properties-common
+  sudo add-apt-repository -y ppa:ethereum/ethereum
+  sudo apt-get update
+  sudo apt-get install ethereum
+  ```
+
 - Solidity  0.8.28+commit.7893614a.Linux.g++
+
+  ```bash
+  sudo add-apt-repository -y ppa:ethereum/ethereum
+  sudo apt-get update
+  sudo apt-get install solc
+  ```
+
 - Nodejs    18.19.1
+  
+  ```bash
+  sudo apt-get install -y nodejs
+  ```
+
 - Npm       9.2.0
+  
+  ```bash
+  sudo apt-get install npm
+  ```
+
 - Truffle   v5.11.5 (core: 5.11.5)
+  
+  ```bash
+  npm install -g truffle
+  ```
 
 ### 问题记录
 
-flag provided but not defined: --rpc
-> 版本更新导致的命令行参数变化  
-> 使用`--http`代替`--rpc`  
-> 使用`--http.api`代替`--rpcapi`  
-> 使用`--http.cordomain`代替`--rpccorsdomain`  
-> 参考：[https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options](https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options)
-
-### truffle 安装 warn
+#### truffle 安装 warn
 
 ```bash
 lvjiahe@LvJh:~$ sudo npm install -g truffle
@@ -82,3 +104,11 @@ added 1166 packages in 4m
 100 packages are looking for funding
   run `npm fund` for details
 ```
+
+#### flag provided but not defined: --rpc
+
+> 版本更新导致的命令行参数变化  
+> 使用`--http`代替`--rpc`  
+> 使用`--http.api`代替`--rpcapi`  
+> 使用`--http.cordomain`代替`--rpccorsdomain`  
+> 参考：[https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options](https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options)
